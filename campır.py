@@ -24,12 +24,12 @@ def sendEmail():
     grab_cam.wait()
     image_path = ‘image1.jpeg’
     username = “cemakdemir99 @ gmail.com”  # gönderilen mail hesabın adını yazıyoruz
-    password = “alicem09”  # gönderilen mail hesabın şifresini yazıyoruz
+    password = “#######”  # gönderilen mail hesabın şifresini yazıyoruz
     COMMASPACE = ‘, ’
     message = MIMEMultipart()
     message[‘Subject’] = ‘Hareket Algilandi’
-    me = ‘cahitsilleli @ gmail.com’  # gönderilecek mail hesabın adını yazıyoruz
-    receivers = ‘cahitsilleli @ gmail.com’  # gönderilecek mail hesabın adını yazıyoruz
+    me = ‘####### @ gmail.com’  # gönderilecek mail hesabın adını yazıyoruz
+    receivers = ‘########@ gmail.com’  # gönderilecek mail hesabın adını yazıyoruz
     message[‘From’] = me
     message[‘To’] = COMMASPACE.join(receivers)
     message.preamble = ‘Hareket’
